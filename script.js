@@ -2,6 +2,8 @@ let baseBlock = document.getElementById("baseBlock");
 let random = document.getElementById('random');
 let min = 1;
 let max = 42;
+random.addEventListener('click', getRandom)
+
 
 async function fetching() {
   let data = await fetch("https://rickandmortyapi.com/api/character");
@@ -21,9 +23,8 @@ for (let key in results) {
 fetching();
 
 
-async function getRandom() {
 
-
+async function getRandom() {  
   let result = await Math.floor(Math.random() * (max - min + 1) + min)
   console.log(result)
 
@@ -39,6 +40,18 @@ async function getRandom() {
     newElem.innerHTML = `Name: ${resultsApi[key]["name"]} </br> Status: ${resultsApi[key]["status"]} </br> Species: ${resultsApi[key]["species"]} <img src= ${resultsApi[key]["image"]}>`;
   }
 }
+
+let t;
+function up() {
+	var top = Math.max(document.body.scrollTop,document.documentElement.scrollTop);
+	if(top > 0) {
+		window.scrollBy(0,-100);
+		t = setTimeout('up()',20);
+	} else clearTimeout(t);
+	return false;
+}
+
+
 
 random.addEventListener('click', getRandom)
 
