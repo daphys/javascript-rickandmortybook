@@ -12,17 +12,18 @@
 </head>
 <body>
     <h1 style="text-align: center; padding: 10px;">Rick and Morty character book</h1>
-    <button>
-        <a href="/mainc.html">Main characters</a>
+    <button id="up" >
+        <a style="text-decoration: none;" href="/mainc.html">Main characters</a>
     </button>
 
     <div id="baseBlock">
 
     </div>
 
-    <button id="random">Random</button>
-    <button onclick="return up()">Go Up</button> 
-
+    <div class="main-but">
+    <button id="random">Get new block</button>
+    <button id="up" onclick="return up()">Go up</button> 
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

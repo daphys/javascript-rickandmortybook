@@ -10,7 +10,7 @@ body{
     gap: 30px;
     padding: 30px;
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 1000px;
 }
 .newElement{
     border: solid 7px;
@@ -25,12 +25,26 @@ body{
     text-align: right;
     align-items: center;
 }
-
 #random{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(14, 218, 133);
+    font-size: large 
 }
-
+#up{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: rgb(14, 218, 133);
+}
 .newElement img{
     border-radius: 50%;
     width: 150px;
     height: 150px;
+}
+.main-but{
+    text-align: center;
+    align-items: center;
 }

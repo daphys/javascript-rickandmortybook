@@ -3,3 +3,31 @@ body{
     background-color: rgb(12, 101, 128);
     color: rgb(14, 218, 133);
 }
+#baseBlock{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    text-align: center;
+    max-width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newElement{
+    align-items: center;
+    text-align: center;
+    border: solid 7px;
+    padding: 30px;
+    width: 250px;
+    height: 350px;
+    font-size: 22px;
+    display: grid;
+    border-radius: 18px;
+}
+.newElement img{
+    border: solid;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}

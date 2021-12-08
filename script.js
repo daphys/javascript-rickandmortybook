@@ -1,6 +1,6 @@
 let baseBlock = document.getElementById("baseBlock");
 let random = document.getElementById('random');
-let min = 1;
+let min = 2;
 let max = 42;
 random.addEventListener('click', getRandom)
 
