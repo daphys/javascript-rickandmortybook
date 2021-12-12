@@ -11,18 +11,21 @@
     </style>
 </head>
 <body>
-    <h1 style="text-align: center; padding: 10px;">Rick and Morty character book</h1>
+<div class="header">
+    <img src="/img/Rick_and_Morty_logo.svg" id="logo" style='width: 350px;' alt="">
+    <h1 style="text-align: center; padding: 10px">book</h1>
+</div>
     <button id="up" >
         <a style="text-decoration: none;" href="/mainc.html">Main characters</a>
     </button>
-
+    <button id="fup" onclick="return up()">Go up</button> 
     <div id="baseBlock">
 
     </div>
 
     <div class="main-but">
     <button id="random">Get new block</button>
-    <button id="up" onclick="return up()">Go up</button> 
+  
     </div>
     <script src="script.js"></script>
 </body>

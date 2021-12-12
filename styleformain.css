@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(12, 101, 128);
-    color: rgb(14, 218, 133);
+    background-color: #2e8697;
+    color: #bfde42;
 }
 #baseBlock{
     display: grid;

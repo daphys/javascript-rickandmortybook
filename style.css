@@ -1,16 +1,22 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(12, 101, 128);
-    color: rgb(14, 218, 133);
+    background-color: #2e8697;
+    color: #bfde42;
 }
-
+.header{
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
 #baseBlock{
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    padding: 30px;
     margin: 0 auto;
-    max-width: 1000px;
+    padding: 30px;
+    justify-self: center;
+    max-width: 55%;
 }
 .newElement{
     border: solid 7px;
@@ -38,6 +44,18 @@ body{
     border-radius: 10px;
     font-size: large;
     background-color: rgb(14, 218, 133);
+}
+#fup{
+    bottom: 10px;
+    position: fixed;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: rgb(14, 218, 133);
+}
+#logo{
+    padding-left: 2%;
 }
 .newElement img{
     border-radius: 50%;
