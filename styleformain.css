@@ -3,6 +3,13 @@ body{
     background-color: #2e8697;
     color: #bfde42;
 }
+#up{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: rgb(14, 218, 133);
+}
 #baseBlock{
     display: grid;
     align-items: center;
