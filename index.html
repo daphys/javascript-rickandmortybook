@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rick and Morty character book</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
     </style>
-</head>
-<body>
-<div class="header">
-    <img src="/img/Rick_and_Morty_logo.svg" id="logo" style='width: 350px;' alt="">
-    <h1 style="text-align: center; padding: 10px">characters book</h1>
-</div>
-    <button id="fup" onclick="return up()">Go up</button>   
-    <button id="up" >
-        <a style="text-decoration: none; color: #5e6932;" href="/mainc.html">Main characters</a>
-    </button>
-    
-    <div id="baseBlock">
-
+  </head>
+  <body>
+    <div class="header">
+      <img
+        src="/img/Rick_and_Morty_logo.svg"
+        id="logo"
+        style="width: 350px"
+        alt=""
+      />
+      <h1 style="text-align: center; padding: 10px">characters book</h1>
     </div>
+    <button id="fup" onclick="return up()">Go up</button>
+    
+    <a style="text-decoration: none; color: #5e6932" href="/mainc.html">
+        <button id="up">Main characters</button>
+    </a>
+
+    <div id="baseBlock"></div>
 
     <div class="main-but">
-    <button id="random">Get new block</button>
-  
+      <button id="random">Get new block</button>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
